@@ -1,0 +1,35 @@
+{
+  "name": "api_instagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusNCorrea98/API_Instagram.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusNCorrea98/API_Instagram/issues"
+  },
+  "homepage": "https://github.com/ViniciusNCorrea98/API_Instagram#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.0.0",
+    "nodemailer": "^6.7.5",
+    "pg": "^8.7.3",
+    "secure-password": "^4.0.0",
+    "yup": "^1.0.0",
+    "yup-locales": "^1.2.11",
+    "yup-password": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
